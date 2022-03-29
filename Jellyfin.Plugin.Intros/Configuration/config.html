@@ -1,25 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8" />
     <title>Intros</title>
 </head>
+
 <body>
-    <div id="configPage" data-role="page" class="page type-interior pluginPage" data-require="emby-input,emby-button,emby-select,emby-checkbox">
+    <div id="configPage" data-role="page" class="page type-interior pluginPage"
+        data-require="emby-input,emby-button,emby-select,emby-checkbox">
         <div data-role="content">
             <div class="content-primary">
                 <form id="configForm">
-                    <p>Only videos from <a is="emby-linkbutton" class="button-link emby-button" target="_blank" href="https://prerolls.video">prerolls.video</a> are used, and the files themselves are pulled from Vimeo directly.</p>
-                    <p>If you'd like to support my work I have a <a is="emby-linkbutton" class="button-link emby-button" target="_blank" href="https://github.com/sponsors/dkanada">GitHub Sponsors</a> page for my contributions to Jellyfin and other projects.</p>
+                    <p>Only videos from <a is="emby-linkbutton" class="button-link emby-button" target="_blank"
+                            href="https://prerolls.video">prerolls.video</a> are used, and the files themselves are
+                        pulled from Vimeo directly.</p>
+                    <p>If you'd like to support my work I have a <a is="emby-linkbutton" class="button-link emby-button"
+                            target="_blank" href="https://github.com/sponsors/andrewbreyen">GitHub Sponsors</a> page for my
+                        contributions to Jellyfin and other projects.</p>
                     <div class="inputContainer">
                         <label class="inputLabel inputLabelUnfocused" for="local">Local Source</label>
                         <input id="local" is="emby-input" placeholder="/var/cache/jellyfin" />
-                        <div class="fieldDescription">Add a file or directory to use files instead of remote videos. Items in a directory will be randomized.</div>
+                        <div class="fieldDescription">Add a file or directory to use files instead of remote videos.
+                            Items in a directory will be randomized.</div>
                     </div>
                     <div class="inputContainer">
                         <label class="inputLabel inputLabelUnfocused" for="vimeo">Vimeo IDs</label>
                         <input id="vimeo" is="emby-input" placeholder="375468729,35292474" />
-                        <div class="fieldDescription">Use custom videos instead of the predefined list below. Multiple videos can be added by separating them with commas.</div>
+                        <div class="fieldDescription">Use custom videos instead of the predefined list below. Multiple
+                            videos can be added by separating them with commas.</div>
                     </div>
                     <div class="selectContainer">
                         <label for="intro">Intro</label>
@@ -29,7 +38,6 @@
                             <option value="440793415">Alamo Drafthouse No Talking</option>
                             <option value="440978850">Alamo Drafthouse Shush</option>
                             <option value="462141918">AMC Theaters Don't Ruin the Movie</option>
-                            <option value="442118203">Anti-Piracy</option>
                             <option value="456990827">Apocalypse</option>
                             <option value="442744420">Audio Waveform</option>
                             <option value="459723868">Back to the Future</option>
@@ -37,10 +45,6 @@
                             <option value="464989433">Blood Splatter</option>
                             <option value="443076423">Blue Smoke</option>
                             <option value="443381251">Blue Smoke Whirl</option>
-                            <option value="484072189">Christmas Card</option>
-                            <option value="483691239">Christmas Ornaments</option>
-                            <option value="483129067">Christmas Train</option>
-                            <option value="483129129">Christmas Tree</option>
                             <option value="442179153">Cinematic Explosion</option>
                             <option value="443404430">Classic Black</option>
                             <option value="443082153">Color Wheel</option>
@@ -49,7 +53,6 @@
                             <option value="443081703">Colorful Swirls</option>
                             <option value="443076518">Colorful Transformation</option>
                             <option value="441615803">COVID-19 Social Distancing</option>
-                            <option value="443076406">COVID-19 Stay the Fuck Home</option>
                             <option value="443076410">COVID-19 Stay the Heck Home</option>
                             <option value="443081835">Cyberpunk Loading</option>
                             <option value="443081756">Cyberpunk</option>
@@ -72,11 +75,9 @@
                             <option value="482322121">Holiday Sweater</option>
                             <option value="465061336">Horror Movies Intro</option>
                             <option value="465017117">Horror Movies Trailer</option>
-                            <option value="482286608">JellyHub</option>
                             <option value="443381155">Liquid Glitch</option>
                             <option value="482679433">Magic Christmas Tree</option>
                             <option value="443081704">Magical Smoke Reveal</option>
-                            <option value="482298222">Merry Christmas</option>
                             <option value="443380983">Modern</option>
                             <option value="465018157">Monster</option>
                             <option value="443404335">Neon Blue</option>
@@ -94,7 +95,6 @@
                             <option value="448034833">Not Netflix</option>
                             <option value="444952001">Old Film Reel</option>
                             <option value="443081763">Paint Splash</option>
-                            <option value="459658222">Piracy. It's a crime.</option>
                             <option value="443404007">Plasma</option>
                             <option value="443076414">Ribbon</option>
                             <option value="465473327">Scary Dark Hotel</option>
@@ -219,4 +219,5 @@
         </script>
     </div>
 </body>
+
 </html>
